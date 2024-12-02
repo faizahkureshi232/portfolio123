@@ -106,6 +106,12 @@ bottomSections:
         textAlign: left
       text:
         textAlign: left
+featuredImage:
+  type: ImageBlock
+  url: 'https://assets.stackbit.com/components/images/default/default-image.png'
+  altText: altText of the image
+  caption: Caption of the image
+  elementId: ''
 ---
 Welcome aboard! Docker isn’t just a buzzword your tech-savvy colleague throws around; it’s a game-changer for anyone working in AI/ML. It’s like having a magic box that keeps your dependencies, tools, and environment conflicts under control. Let’s dive into what Docker is, why it’s awesome, and how to use it for training models without pulling your hair out.
 
