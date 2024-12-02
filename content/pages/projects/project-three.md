@@ -6,8 +6,8 @@ date: ''
 client: Awesome client
 description: >-
   A smart monitoring system that uses real-time sensor data and machine learning
-  to predict maintenance schedules with 95% accuracy, reducing elevator downtime
-  by 30% and improving safety through proactive issue identification.
+  to predict maintenance schedules and improving safety through proactive issue
+  identification.
 featuredImage:
   type: ImageBlock
   url: /images/Screenshot from 2024-12-02 10-42-10.png
