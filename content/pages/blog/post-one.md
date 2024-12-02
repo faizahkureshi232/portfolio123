@@ -3,8 +3,8 @@ type: PostLayout
 title: 'Docker Diaries: Training Models Without Losing Your Sanity'
 date: '2024-08-01'
 excerpt: >-
-  Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer
-  condimentum dignissim justo vel faucibus.
+  So, you’ve decided to dip your toes—or maybe your entire head—into the world
+  of Docker for model building and training? Welcome aboard!
 featuredImage:
   type: ImageBlock
   url: 'https://assets.stackbit.com/components/images/default/post-4.jpeg'
