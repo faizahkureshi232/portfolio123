@@ -9,7 +9,7 @@ excerpt: >-
   of Docker for model building and training? 
 backgroundImage:
   type: BackgroundImage
-  url: /images/gallery-2.jpg
+  url: /images/bg4.jpg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
