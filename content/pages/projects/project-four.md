@@ -3,9 +3,7 @@ type: ProjectLayout
 title: Violence Detection
 date: '2023-07-30'
 client: NUS Project
-description: >-
-  Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer
-  condimentum dignissim justo vel faucibus.
+description: ''
 featuredImage:
   type: ImageBlock
   url: 'https://assets.stackbit.com/components/images/default/post-4.jpeg'
