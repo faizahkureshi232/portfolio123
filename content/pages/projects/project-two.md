@@ -33,3 +33,8 @@ Key Features:
 4.  **Accuracy**: Achieved an impressive 93% accuracy across both datasets, demonstrating its reliability and effectiveness.
 
 This tool not only empowers doctors with actionable insights but also bridges the gap between AI predictions and human decision-making by ensuring the reasoning behind every diagnosis is transparent and interpretable.
+
+
+
+[Too see how its done click here](https://github.com/faizahkureshi232/DoctorLRP)
+
