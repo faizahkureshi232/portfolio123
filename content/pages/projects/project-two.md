@@ -5,10 +5,10 @@ colors: colors-a
 date: ''
 client: ''
 description: >-
-  An Explainable AI (XAI)-powered tool that analyzes medical scans, provides
-  prognosis explanations, and notifies doctors via their portal. By combining
-  transparency with advanced diagnostics, it ensures healthcare professionals
-  receive actionable insights backed by clear, interpretable explanations.
+  An Explainable AI (XAI)-powered tool that not only analyzes medical scans but
+  also spills the beans on why it thinks something’s wrong. It even gives
+  doctors a nudge through their portal—because AI can’t just diagnose, it has to
+  overachieve with transparency and sass.
 featuredImage:
   type: ImageBlock
   url: /images/Screenshot from 2024-12-02 10-37-06.png
