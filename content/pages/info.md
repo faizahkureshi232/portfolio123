@@ -220,10 +220,8 @@ sections:
     variant: variant-a
     subtitle: 'Contact:'
     colors: colors-f
-    text: |+
-
-      <kureshifaizah@gmail.com>[mailto:kureshifaizah@gmail.com]
-
+    text: |
+      <kureshifaizah@gmail.com>
   - type: DividerSection
     styles:
       self:
