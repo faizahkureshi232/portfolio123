@@ -4,7 +4,7 @@ title: >-
   Empowering Precision in Financial News: A Revolution in Editorial
   Classification through Cutting-Edge Natural Language Processing
 colors: colors-a
-date: '2024-06-03'
+date: '2024-03-03'
 author: content/data/team/doris-soto.json
 excerpt: More context that may or may not be helpful
 featuredImage:
