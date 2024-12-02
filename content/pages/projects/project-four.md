@@ -16,7 +16,7 @@ backgroundImage:
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
-  opacity: 100
+  opacity: 40
 featuredImage:
   type: ImageBlock
   url: /images/Screenshot from 2024-12-02 11-24-16.png
