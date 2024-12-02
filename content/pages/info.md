@@ -191,7 +191,7 @@ sections:
       - type: Label
         label: Python
       - type: Label
-        label: React
+        label: Pytorch
       - type: Label
         label: Microsoft Office
       - type: Label
