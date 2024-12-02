@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: Violence Detection
 date: '2023-07-30'
-client: ''
+client: NUS Project
 description: >-
   Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer
   condimentum dignissim justo vel faucibus.
