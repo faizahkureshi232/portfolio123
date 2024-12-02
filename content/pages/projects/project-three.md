@@ -19,7 +19,7 @@ backgroundImage:
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
-  opacity: 35
+  opacity: 40
 ---
 [**To see how its done click here!**](https://github.com/faizahkureshi232/Predictive_maintenance)
 
