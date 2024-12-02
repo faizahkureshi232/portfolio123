@@ -109,8 +109,6 @@ bottomSections:
 ---
 Welcome aboard! Docker isn’t just a buzzword your tech-savvy colleague throws around; it’s a game-changer for anyone working in AI/ML. It’s like having a magic box that keeps your dependencies, tools, and environment conflicts under control. Let’s dive into what Docker is, why it’s awesome, and how to use it for training models without pulling your hair out.
 
-
-
 ## **What is Docker and Why Should You Care?**
 
 Docker is like a Tupperware container for your code—it packages everything you need (code, libraries, dependencies, etc.) into a neat little box called a container. Whether you’re running your model on your laptop or a cloud GPU instance, Docker ensures it behaves the same way everywhere. No more “but it works on my machine!” excuses.
@@ -124,8 +122,6 @@ Docker is like a Tupperware container for your code—it packages everything you
 *   **Isolation**: Keeps dependencies from fighting like siblings in the backseat.
 
 *   **Scalability**: Easily scale your model training to larger, beefier machines.
-
-
 
 ## **Getting Started: The Basics**
 
@@ -143,10 +139,24 @@ First, you’ll need to install Docker. Head over to [Docker's official site](ht
 
 A `Dockerfile` is like your secret recipe. Here’s an example tailored for ML model training:
 
-``
-
 ```
-dockerfileCopy code
+# Use an official Python base image
+FROM python:3.9-slim
+
+# Install system-level dependencies
+RUN apt-get update && apt-get install -y git wget
+
+# Install Python libraries
+RUN pip install numpy pandas tensorflow keras scikit-learn
+
+# Set the working directory
+WORKDIR /app
+
+# Copy your project files into the container
+COPY . .
+
+# Run the training script
+CMD ["python", "train.py"]
 ```
 
 **What’s happening here?**
@@ -160,8 +170,6 @@ dockerfileCopy code
 4.  Copy your code into the container.
 
 5.  Define the command to run your training script.
-
-
 
 ## **Model Training in Docker**
 
@@ -193,8 +201,6 @@ Run the container with GPU support:
 bashCopy code
 ```
 
-
-
 ## **Advanced Tricks: Docker Like a Pro**
 
 ### **1. Multi-Stage Builds**
@@ -219,8 +225,6 @@ Run everything with one command:
 bashCopy code
 ```
 
-
-
 ## **Common Pitfalls (and How to Avoid Them)**
 
 1.  **Big Images**: Your Docker images don’t need to weigh more than your laptop. Use slim base images and avoid unnecessary packages.
@@ -231,19 +235,14 @@ bashCopy code
 
 4.  **Debugging Woes**: Use `docker exec -it <container_id> bash` to jump inside a running container for debugging.
 
-
-
 ## **My Experience: Model Building in Docker**
 
 When I first started using Docker for model training, I expected magic but ended up staring at errors for hours. After some trial and error (and several cups of coffee), it became my best friend. I’ve trained complex ML models, used Docker to scale on cloud GPUs, and even collaborated with teammates seamlessly—Docker made it all possible.
 
 The best part? Once I set up my Docker environment, I never had to hear, “It doesn’t work on my machine” again.
 
-
-
 ## **Conclusion: Why Docker is a Must-Have**
 
 Docker simplifies everything—dependency management, environment consistency, scaling, and collaboration. It’s not just a tool; it’s a lifestyle. Whether you’re building a tiny linear regression model or training a transformer on GPUs, Docker has got your back.
 
 So, grab your favorite caffeinated beverage, write that `Dockerfile`, and let the containers do the heavy lifting. Your models—and your sanity—will thank you!
-
