@@ -14,6 +14,43 @@ backgroundImage:
   backgroundPosition: center
   backgroundRepeat: no-repeat
   opacity: 40
+bottomSections:
+  - type: RecentPostsSection
+    subtitle: Posts
+    actions:
+      - type: Link
+        label: See all posts
+        altText: See all posts
+        url: /blog
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        elementId: ''
+    colors: colors-f
+    variant: variant-b
+    elementId: ''
+    recentCount: 3
+    showDate: true
+    showAuthor: false
+    showExcerpt: true
+    showFeaturedImage: false
+    showReadMoreLink: true
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-24
+          - pb-24
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      actions:
+        justifyContent: center
 ---
 ### [**Paper Link**](https://ieeexplore.ieee.org/abstract/document/10426217?casa_token=Ggz_mt3wwhEAAAAA:Av1ZxKoju2YHRt5zzf25a1xLRVKSVqxcXg2vkUs2bhbsGo-m-pzUdPvS9BL3-12uFgbkLL4WWdDjwYs)
 
