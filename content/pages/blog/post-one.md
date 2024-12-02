@@ -15,7 +15,7 @@ addTitleSuffix: true
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
-  url: /images/bg4.jpg
+  url: /images/tumblr_pu0ndkstCx1uzwgsuo1_400.webp
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
