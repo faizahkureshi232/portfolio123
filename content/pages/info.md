@@ -120,7 +120,15 @@ sections:
             textAlign: left
         title: ''
       - type: FeaturedItem
-        actions: []
+        actions:
+          - type: Link
+            label: Learn more
+            altText: ''
+            url: '/http://www.linkedin.com/in/faizah-kureshi-82b879232'
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            elementId: ''
         styles:
           self:
             textAlign: left
