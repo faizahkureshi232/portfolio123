@@ -4,7 +4,7 @@ title: Speech-enabled Image Narration for the Visually Impaired
 colors: colors-a
 date: ''
 client: ''
-description: ''
+description: +
 featuredImage:
   type: ImageBlock
   url: /images/bg1.jpg
