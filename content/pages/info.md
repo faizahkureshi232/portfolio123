@@ -72,7 +72,7 @@ sections:
         altText: Logo two
         caption: Logo two
       - type: ImageBlock
-        url: /images/nustrans.png.png
+        url: /images/nus.png
         altText: altText of the image
         caption: Caption of the image
         elementId: ''
