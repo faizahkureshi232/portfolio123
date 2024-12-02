@@ -4,9 +4,7 @@ title: >-
   Empowering Precision in Financial News: A Revolution in Editorial
   Classification through Cutting-Edge Natural Language Processing
 date: '2024-03-05'
-excerpt: >-
-  Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer
-  condimentum dignissim justo vel faucibus.
+excerpt: ''
 addTitleSuffix: true
 colors: colors-a
 backgroundImage:
