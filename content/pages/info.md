@@ -132,10 +132,7 @@ sections:
           self:
             textAlign: left
       - type: FeaturedItem
-        actions:
-          - type: Link
-            label: CodePen
-            url: 'https://codepen.io/'
+        actions: []
         styles:
           self:
             textAlign: left
