@@ -21,7 +21,7 @@ backgroundImage:
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
-  opacity: 100
+  opacity: 40
 ---
 [To see how its done click here](https://github.com/faizahkureshi232/DoctorLRP)
 
