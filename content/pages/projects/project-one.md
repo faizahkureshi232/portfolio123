@@ -45,3 +45,6 @@ This project is designed to empower visually impaired individuals by providing r
 
 This project demonstrates the potential of AI to address real-world challenges, providing visually impaired individuals with an innovative tool for enhanced interaction and independence.
 
+
+
+[To see how its done click here](https://github.com/faizahkureshi232/imagetospeech)
