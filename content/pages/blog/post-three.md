@@ -2,7 +2,7 @@
 type: PostLayout
 title: 'Docker Diaries: Training Models Without Losing Your Sanity'
 colors: colors-b
-date: '2024-01-01'
+date: '2024-12-02'
 author: content/data/team/doris-soto.json
 excerpt: More context that may or may not be helpful
 featuredImage:
