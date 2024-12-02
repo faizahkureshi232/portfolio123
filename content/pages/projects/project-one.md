@@ -13,7 +13,7 @@ description: >-
   project has my vision (pun intended) written all over it!
 featuredImage:
   type: ImageBlock
-  url: /images/bg1.jpg
+  url: /images/Screenshot from 2024-12-02 10-51-36.png
   altText: Project thumbnail image
 media:
   type: ImageBlock
