@@ -1,29 +1,57 @@
 ---
 type: ProjectLayout
-title: One more cool project
+title: Predictive Maintenance for Elevators
 colors: colors-a
-date: '2022-01-22'
+date: '2023-04-16'
 client: Awesome client
 description: >-
-  It’s hard to imagine that I’ve that I wrote all this code by myself, probably because I worked with an entire team :) but they definitely followed my lead most of the time.
+  Imagine giving elevators a sixth sense—this system does just that. Using
+  real-time sensors and ML, it predicts when maintenance is due before things go
+  south. It’s smarter than your average maintenance guy and works 24/7 without a
+  coffee break.Safety, efficiency, and no awkward breakdowns—what’s not to love?
 featuredImage:
   type: ImageBlock
-  url: /images/bg3.jpg
+  url: /images/Screenshot from 2024-12-02 10-42-10.png
   altText: Project thumbnail image
-media:
-  type: ImageBlock
-  url: /images/bg3.jpg
-  altText: Project image
+backgroundImage:
+  type: BackgroundImage
+  url: /images/featured-Image3.jpg
+  backgroundSize: cover
+  backgroundPosition: center
+  backgroundRepeat: no-repeat
+  opacity: 40
 ---
+[**To see how its done click here!**](https://github.com/faizahkureshi232/Predictive_maintenance)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem, tincidunt ac leo efficitur, feugiat tempor odio. Curabitur at auctor sapien. Etiam at cursus enim. Suspendisse sed augue tortor. Nunc eu magna vitae lorem pellentesque fermentum. Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper. Donec sed facilisis nibh. Curabitur eget dui in libero euismod commodo nec sit amet est. Etiam id ipsum aliquam, vehicula erat sit amet, consequat tortor.
+This project focuses on enhancing elevator reliability and safety through a smart predictive maintenance system. By integrating sensors and machine learning, the system ensures timely maintenance, preventing unexpected breakdowns and reducing downtime.
 
-Etiam facilisis lacus nec pretium lobortis. Praesent dapibus justo non efficitur efficitur. Nullam viverra justo arcu, eget egestas tortor pretium id. Sed imperdiet mattis eleifend. Vivamus suscipit et neque imperdiet venenatis. In malesuada sed urna eget vehicula. Donec fermentum tortor sit amet nisl elementum fringilla. Pellentesque dapibus suscipit faucibus. Nullam malesuada sed urna quis rutrum. Donec facilisis lorem id maximus mattis. Vestibulum quis elit magna. Vestibulum accumsan blandit consequat. Phasellus quis posuere quam.
+**Key Features**:
 
-> “Everybody should learn to program a computer, because it teaches you how to think.”
+1.  **Data Collection and Integration**:
 
-Vestibulum ullamcorper risus auctor eleifend consequat. Vivamus mollis in tellus ac ullamcorper. Vestibulum sit amet bibendum ipsum, vitae rutrum ex. Nullam cursus, urna et dapibus aliquam, urna leo euismod metus, eu luctus justo mi eget mauris. Proin felis leo, volutpat et purus in, lacinia luctus eros. Pellentesque lobortis massa scelerisque lorem ullamcorper, sit amet elementum nulla scelerisque. In volutpat efficitur nulla, aliquam ornare lectus ultricies ac. Mauris sagittis ornare dictum. Nulla vel felis ut purus fermentum pretium. Sed id lectus ac diam aliquet venenatis. Etiam ac auctor enim. Nunc velit mauris, viverra vel orci ut, egestas rhoncus diam. Morbi scelerisque nibh tellus, vel varius urna malesuada sed. Etiam ultricies sem consequat, posuere urna non, maximus ex. Mauris gravida diam sed augue condimentum pulvinar vel ac dui. Integer vel convallis justo.
+    *   Real-time data collection using sensors such as accelerometers, IR, DHT (temperature and humidity), and sound sensors.
 
-Nam rutrum magna sed pellentesque lobortis. Etiam quam mauris, iaculis eget ex ac, rutrum scelerisque nisl. Cras finibus dictum ex sed tincidunt. Morbi facilisis neque porta, blandit mauris quis, pharetra odio. Aliquam dictum quam quis elit auctor, at vestibulum ex pulvinar. Quisque lobortis a lectus quis faucibus. Nulla vitae pellentesque nibh, et fringilla erat. Praesent placerat ac est at tincidunt. Praesent ultricies a ex at ultrices. Etiam sed tincidunt elit. Nulla sagittis neque neque, ultrices dignissim sapien pellentesque faucibus. Donec tempor orci sed consectetur dictum. Ut viverra ut enim ac semper. Integer lacinia sem in arcu tempor faucibus eget non urna. Praesent vel nunc eu libero aliquet interdum non vitae elit. Maecenas pharetra ipsum dolor, et iaculis elit ornare ac.
+    *   Monitored key elevator components, including environmental conditions, steel rope wear, and brake speed, to gather actionable insights.
 
-Aenean scelerisque ullamcorper est aliquet blandit. Donec ac tellus enim. Vivamus quis leo mattis, varius arcu at, convallis diam. Donec ac leo at nunc viverra molestie ac viverra nisi. Proin interdum at turpis at varius. Nunc sit amet ex suscipit, convallis ligula eu, pretium turpis. Sed ultricies neque vel mi malesuada, et mollis risus lobortis. Sed condimentum venenatis mauris, id elementum dolor gravida ac. Sed sodales tempus neque, quis iaculis arcu tincidunt ut. Donec vitae faucibus dui. In hac habitasse platea dictumst. Donec erat ex, ullamcorper a massa a, porttitor porta ligula.
+2.  **Predictive Model Development**:
+
+    *   Built a predictive maintenance model using the Random Forest algorithm, achieving a 95% accuracy rate for service date forecasts.
+
+    *   Leveraged sensor data to identify early warning signs of component wear and predict maintenance needs.
+
+3.  **System Integration**:
+
+    *   Developed a Flask server connected to an Arduino for seamless data transmission and processing.
+
+    *   Built a real-time frontend application to display component health, environmental conditions, and predicted maintenance schedules.
+
+4.  **Impact and Results**:
+
+    *   Reduced elevator downtime by 30% through proactive maintenance scheduling.
+
+    *   Enhanced safety by identifying and addressing maintenance needs before failures occurred.
+
+    *   Improved operational efficiency and service reliability in elevator systems.
+
+This project demonstrates the potential of combining IoT sensors, machine learning, and web technologies to revolutionize maintenance strategies in industrial and commercial systems.
+

@@ -1,10 +1,10 @@
 {
     "type": "Person",
-    "firstName": "Doris",
-    "lastName": "Soto",
+    "firstName": "Faizah",
+    "lastName": "Kureshi",
     "image": {
         "type": "ImageBlock",
-        "url": "/images/about.jpg",
-        "altText": "Doris Soto photo"
+        "url": "/images/Screenshot from 2024-12-02 11-46-58.png",
+        "altText": "Faizah photo"
     }
 }
