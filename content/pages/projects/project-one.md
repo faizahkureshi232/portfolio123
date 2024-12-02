@@ -5,10 +5,12 @@ colors: colors-a
 date: ''
 client: ''
 description: >-
-  This project is very cool and well a mini version of Ray Ban smart glass
-  (without the glass hehe). Its hard to imagine that I wrote all this and it
-  might be because my friend help me with it :) But it was me directing her all
-  along
+  This project is a super cool, scaled-down version of Ray-Ban smart
+  glasses—minus the actual glasses (because who needs those, right?). While it
+  might be hard to believe I pulled this off, I had a little help from my
+  talented friend. But hey, I was the one directing the show, brainstorming
+  ideas, and making sure everything came together perfectly. So yes, this
+  project has my vision (pun intended) written all over it!
 featuredImage:
   type: ImageBlock
   url: /images/bg1.jpg
