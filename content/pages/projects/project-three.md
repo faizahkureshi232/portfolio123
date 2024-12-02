@@ -51,3 +51,7 @@ This project focuses on enhancing elevator reliability and safety through a smar
     *   Improved operational efficiency and service reliability in elevator systems.
 
 This project demonstrates the potential of combining IoT sensors, machine learning, and web technologies to revolutionize maintenance strategies in industrial and commercial systems.
+
+
+
+[To see how its done click here](https://github.com/faizahkureshi232/Predictive_maintenance)
