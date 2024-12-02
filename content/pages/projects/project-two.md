@@ -9,10 +9,6 @@ description: >-
   prognosis explanations, and notifies doctors via their portal. By combining
   transparency with advanced diagnostics, it ensures healthcare professionals
   receive actionable insights backed by clear, interpretable explanations.
-media:
-  type: ImageBlock
-  url: /images/bg2.jpg
-  altText: Project image
 ---
 Doctor LRP is an advanced Explainable AI (XAI) tool designed to assist healthcare professionals in understanding and verifying diagnostic predictions. The system leverages Layer-wise Relevance Propagation (LRP) to provide detailed explanations for its predictions, ensuring transparency and trust in AI-assisted healthcare.
 
