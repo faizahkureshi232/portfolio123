@@ -11,12 +11,6 @@ featuredImage:
   altText: Post thumbnail image
   caption: Caption of the image
   elementId: ''
-media:
-  type: ImageBlock
-  url: /images/Transformer-python-(1).png
-  altText: Post image
-  caption: Caption of the image
-  elementId: ''
 addTitleSuffix: true
 colors: colors-a
 backgroundImage:
