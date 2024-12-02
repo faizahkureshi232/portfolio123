@@ -108,7 +108,7 @@ bottomSections:
         textAlign: left
 featuredImage:
   type: ImageBlock
-  url: /images/docker.jpeg
+  url: /images/docker.png
   altText: altText of the image
   caption: Caption of the image
   elementId: ''
