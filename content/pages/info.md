@@ -203,7 +203,7 @@ sections:
       - type: Label
         label: C++
       - type: Label
-        label: tensofrlow
+        label: C++
   - type: DividerSection
     styles:
       self:
