@@ -136,7 +136,7 @@ sections:
         actions:
           - type: Link
             label: INSTAGRAM
-            url: 'https://www.linkedin.com/'
+            url: ''
         styles:
           self:
             textAlign: left
