@@ -15,7 +15,7 @@ backgroundImage:
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
-  opacity: 100
+  opacity: 52
 ---
 ### [**Paper Link**](https://dl.acm.org/doi/10.1145/3639233.3639343)
 
