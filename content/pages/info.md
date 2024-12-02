@@ -114,7 +114,7 @@ sections:
         actions:
           - type: Link
             label: GitHub
-            url: 'https://github.com/'
+            url: 'https://github.com/faizahkureshi232'
         styles:
           self:
             textAlign: left
