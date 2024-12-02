@@ -4,7 +4,11 @@ title: Speech-enabled Image Narration for the Visually Impaired
 colors: colors-a
 date: ''
 client: ''
-description: ''
+description: >-
+  This project is very cool and well a mini version of Ray Ban smart glass
+  (without the glass hehe). Its hard to imagine that I wrote all this and it
+  might be because my friend help me with it :) But it was me directing her all
+  along
 featuredImage:
   type: ImageBlock
   url: /images/bg1.jpg
