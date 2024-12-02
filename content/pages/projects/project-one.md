@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: Speech-enabled Image Narration for the Visually Impaired
 colors: colors-a
-date: ''
+date: '2023-11-02'
 client: ''
 description: >-
   This project is a super cool, scaled-down version of Ray-Ban smart
