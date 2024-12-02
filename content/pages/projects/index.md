@@ -4,11 +4,11 @@ title: Projects
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
-  url: /images/bg1.jpg
+  url: /images/featured-Image3.jpg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
-  opacity: 50
+  opacity: 40
 projectFeed:
   type: ProjectFeedSection
   colors: colors-f
