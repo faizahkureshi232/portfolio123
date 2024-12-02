@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: Docker
+title: 'Docker Diaries: Training Models Without Losing Your Sanity'
 date: '2024-08-01'
 excerpt: >-
   Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer
