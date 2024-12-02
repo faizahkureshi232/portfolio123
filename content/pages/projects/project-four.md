@@ -19,7 +19,7 @@ backgroundImage:
   opacity: 100
 featuredImage:
   type: ImageBlock
-  url: 'https://assets.stackbit.com/components/images/default/default-image.png'
+  url: /images/Screenshot from 2024-12-02 11-24-16.png
   altText: altText of the image
   caption: Caption of the image
   elementId: ''
