@@ -5,7 +5,6 @@ title: >-
   Classification through Cutting-Edge Natural Language Processing
 colors: colors-a
 date: '2024-03-05'
-author: content/data/team/doris-soto.json
 excerpt: ''
 bottomSections:
   - elementId: ''
