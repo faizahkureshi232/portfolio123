@@ -7,10 +7,6 @@ author: content/data/team/doris-soto.json
 excerpt: >-
   So, you’ve decided to dip your toes—or maybe your entire head—into the world
   of Docker for model building and training? 
-featuredImage:
-  type: ImageBlock
-  url: /images/featured-Image3.jpg
-  altText: Post thumbnail image
 backgroundImage:
   type: BackgroundImage
   url: /images/gallery-2.jpg
