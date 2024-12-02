@@ -1,7 +1,7 @@
 ---
 type: PostLayout
 title: Docker
-date: '2024-11-30'
+date: '2024-10-30'
 excerpt: >-
   Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer
   condimentum dignissim justo vel faucibus.
