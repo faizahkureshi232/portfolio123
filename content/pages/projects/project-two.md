@@ -5,9 +5,10 @@ colors: colors-a
 date: ''
 client: ''
 description: >-
-  It’s hard to imagine that I’ve that I wrote all this code by myself, probably
-  because I worked with an entire team :) but they definitely followed my lead
-  most of the time.
+  An Explainable AI (XAI)-powered tool that analyzes medical scans, provides
+  prognosis explanations, and notifies doctors via their portal. By combining
+  transparency with advanced diagnostics, it ensures healthcare professionals
+  receive actionable insights backed by clear, interpretable explanations.
 featuredImage:
   type: ImageBlock
   url: /images/bg2.jpg
