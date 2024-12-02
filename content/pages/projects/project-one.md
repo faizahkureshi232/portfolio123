@@ -14,10 +14,6 @@ featuredImage:
   type: ImageBlock
   url: /images/Screenshot from 2024-12-02 10-51-36.png
   altText: Project thumbnail image
-media:
-  type: ImageBlock
-  url: /images/bg1.jpg
-  altText: Project image
 ---
 This project is designed to empower visually impaired individuals by providing real-time audio narration of their surroundings using augmented reality and AI technologies. The system seamlessly combines image processing and speech synthesis for an accessible and intuitive experience.
 
