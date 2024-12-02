@@ -13,7 +13,7 @@ featuredImage:
   elementId: ''
 media:
   type: ImageBlock
-  url: /images/lllm2.png
+  url: /images/Transformer-python-(1).png
   altText: Post image
   caption: Caption of the image
   elementId: ''
