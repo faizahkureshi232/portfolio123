@@ -20,7 +20,7 @@ backgroundImage:
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
-  opacity: 100
+  opacity: 42
 ---
 [**To see how its done click here!**](https://github.com/faizahkureshi232/imagetospeech)
 
