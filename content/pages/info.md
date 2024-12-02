@@ -199,7 +199,7 @@ sections:
       - type: Label
         label: LLM
       - type: Label
-        label: Pancakes
+        label: JAVA
       - type: Label
         label: C++
       - type: Label
