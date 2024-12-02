@@ -9,13 +9,6 @@ excerpt: >-
   condimentum dignissim justo vel faucibus.
 addTitleSuffix: true
 colors: colors-a
-backgroundImage:
-  type: BackgroundImage
-  url: /images/bg2.jpg
-  backgroundSize: cover
-  backgroundPosition: center
-  backgroundRepeat: no-repeat
-  opacity: 100
 ---
 ### [**Paper Link**](https://dl.acm.org/doi/10.1145/3639233.3639343)
 
