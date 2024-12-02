@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: Speech-enabled Image Narration for the Visually Impaired
 colors: colors-a
-date: '2021-10-15'
+date: ''
 client: Awesome client
 description: >-
   It’s hard to imagine that I’ve that I wrote all this code by myself, probably
