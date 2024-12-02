@@ -4,7 +4,7 @@ title: Home
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
-  url: /images/network-7ceo8pg1xxgcqj90.gif
+  url: /images/modern-cg-animation-for-data-technology-video.jpg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
