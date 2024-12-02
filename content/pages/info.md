@@ -4,23 +4,25 @@ title: About
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
-  url: /images/bg4.jpg
+  url: /images/featured-Image3.jpg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
-  opacity: 75
+  opacity: 40
 sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    text: >-
-      ## Hey I’m a developer. I’ve been born and raised in the world, and that’s
-      also where I’m based. I’m currently a free agent, ex-this, ex-that,
-      ex-super big name. When I’m not coding, writing or creating, I eat
-      cereals. I have a dog, check her out [@mygod](https://www.stackbit.com/).
+    text: >+
+      ## Hello I’m a AI Engineer. I’ve been born and raised in India, and that’s
+      also where I’m based. Looking to pursue masters  and trying to collaborate
+      on really cool projects (also trying to building a personal brand). When
+      I’m not coding, writing or creating, I eat cereals and watch Modern
+      Family.
+
     media:
       type: ImageBlock
-      url: /images/about.jpg
+      url: /images/Screenshot from 2024-12-02 11-46-58.png
       altText: Hero image
     styles:
       self:
@@ -63,25 +65,14 @@ sections:
     subtitle: 'I worked with these folks:'
     images:
       - type: ImageBlock
-        url: /images/logo1.svg
+        url: /images/merai.png
         altText: Logo one
         caption: Logo one
       - type: ImageBlock
-        url: /images/logo2.svg
-        altText: Logo two
-        caption: Logo two
-      - type: ImageBlock
-        url: /images/logo3.svg
-        altText: Logo three
-        caption: Logo three
-      - type: ImageBlock
-        url: /images/logo4.svg
-        altText: Logo four
-        caption: Logo four
-      - type: ImageBlock
-        url: /images/logo5.svg
-        altText: Logo five
-        caption: Logo five
+        url: /images/nus.png
+        altText: altText of the image
+        caption: Caption of the image
+        elementId: ''
     spacing: 3
     columns: 5
     aspectRatio: auto
@@ -124,47 +115,44 @@ sections:
         actions:
           - type: Link
             label: GitHub
-            url: 'https://github.com/'
+            url: 'https://github.com/faizahkureshi232'
+        styles:
+          self:
+            textAlign: left
+        title: ''
+      - type: FeaturedItem
+        actions:
+          - type: Link
+            label: LINKEDIN
+            altText: ''
+            url: '/http://www.linkedin.com/in/faizah-kureshi-82b879232'
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            elementId: ''
         styles:
           self:
             textAlign: left
       - type: FeaturedItem
         actions:
           - type: Link
-            label: Twitter
-            url: 'https://twitter.com/'
+            label: INSTAGRAM
+            url: 'https://www.instagram.com/faizahkureshi232/'
         styles:
           self:
             textAlign: left
       - type: FeaturedItem
-        actions:
-          - type: Link
-            label: LinkedIn
-            url: 'https://www.linkedin.com/'
+        actions: []
         styles:
           self:
             textAlign: left
       - type: FeaturedItem
-        actions:
-          - type: Link
-            label: CodePen
-            url: 'https://codepen.io/'
+        actions: []
         styles:
           self:
             textAlign: left
       - type: FeaturedItem
-        actions:
-          - type: Link
-            label: Discord
-            url: 'https://discord.com/'
-        styles:
-          self:
-            textAlign: left
-      - type: FeaturedItem
-        actions:
-          - type: Link
-            label: Instagram
-            url: 'https://www.instagram.com/'
+        actions: []
         styles:
           self:
             textAlign: left
@@ -207,21 +195,21 @@ sections:
     subtitle: 'Skills:'
     items:
       - type: Label
-        label: 'WEB 1, 2, 3'
+        label: Python
       - type: Label
-        label: React
+        label: Pytorch
       - type: Label
-        label: Microsoft Office
+        label: Computer Vision
       - type: Label
-        label: Next.js
+        label: NLP
       - type: Label
-        label: Netlify
+        label: LLM
       - type: Label
-        label: Pancakes
+        label: Docker
+      - type: Label
+        label: JAVA
       - type: Label
         label: C++
-      - type: Label
-        label: Swift
   - type: DividerSection
     styles:
       self:
@@ -239,100 +227,7 @@ sections:
     subtitle: 'Contact:'
     colors: colors-f
     text: |
-      [thisismyemail.@myemail.me](mailto:thisismyemail.@myemail.me)
-  - type: DividerSection
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-8
-          - pb-8
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderWidth: 1
-        borderStyle: solid
-  - type: FeaturedItemsSection
-    colors: colors-f
-    items:
-      - type: FeaturedItem
-        subtitle: 'Experience:'
-        text: |-
-          **Current**
-
-          * freelance @freelance.me
-
-          **2018-2021**
-
-          * fullstack at this startup
-
-          **2015**
-
-          * senior front-end at this place
-
-          **2013**
-
-          * intern developer at a big company
-
-          **2011**
-
-          * flipping burgers
-        styles:
-          self:
-            textAlign: left
-            padding:
-              - pt-0
-              - pl-0
-              - pb-0
-              - pr-0
-      - type: FeaturedItem
-        subtitle: 'Education:'
-        text: |-
-          **2015-2018**
-
-          * ba computer sciense at a semi fancy school
-
-          **2014**
-
-          * react certificate somewhere
-
-          **2011**
-
-          * my highschool
-        styles:
-          self:
-            textAlign: left
-            padding:
-              - pt-0
-              - pl-0
-              - pb-0
-              - pr-0
-    columns: 2
-    spacingX: 60
-    spacingY: 60
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-8
-          - pb-8
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
+      <kureshifaizah@gmail.com>
   - type: DividerSection
     styles:
       self:
