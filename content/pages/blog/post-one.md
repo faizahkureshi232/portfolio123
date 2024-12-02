@@ -19,7 +19,7 @@ backgroundImage:
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
-  opacity: 65
+  opacity: 47
 author: content/data/team/doris-soto.json
 ---
 Docker isn’t just a buzzword your tech-savvy colleague throws around; it’s a game-changer for anyone working in AI/ML. It’s like having a magic box that keeps your dependencies, tools, and environment conflicts under control. Let’s dive into what Docker is, why it’s awesome, and how to use it for training models without pulling your hair out.
