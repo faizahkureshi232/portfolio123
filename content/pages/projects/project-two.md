@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: DoctorLRP
 colors: colors-a
-date: ''
+date: '2024-11-02'
 client: ''
 description: >-
   An Explainable AI (XAI)-powered tool that not only analyzes medical scans but
