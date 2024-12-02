@@ -13,6 +13,13 @@ featuredImage:
   type: ImageBlock
   url: /images/Screenshot from 2024-12-02 10-42-10.png
   altText: Project thumbnail image
+backgroundImage:
+  type: BackgroundImage
+  url: /images/bg2.jpg
+  backgroundSize: cover
+  backgroundPosition: center
+  backgroundRepeat: no-repeat
+  opacity: 100
 ---
 [**To see how its done click here!**](https://github.com/faizahkureshi232/Predictive_maintenance)
 
