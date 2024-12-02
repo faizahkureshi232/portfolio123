@@ -135,7 +135,7 @@ sections:
       - type: FeaturedItem
         actions:
           - type: Link
-            label: LinkedIn
+            label: INSTAGRAM
             url: 'https://www.linkedin.com/'
         styles:
           self:
