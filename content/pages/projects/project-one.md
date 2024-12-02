@@ -8,8 +8,7 @@ description: >-
   This project is a super cool, scaled-down version of Ray-Ban smart
   glasses—minus the actual glasses (because who needs those, right?). While it
   might be hard to believe I pulled this off, I had a little help from my
-  talented friend. But hey, I was the one directing the show, brainstorming
-  ideas, and making sure everything came together perfectly. So yes, this
+  talented friend. But hey, I was the one directing the show.  So yes, this
   project has my vision (pun intended) written all over it!
 featuredImage:
   type: ImageBlock
