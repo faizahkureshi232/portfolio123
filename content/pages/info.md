@@ -197,7 +197,7 @@ sections:
       - type: Label
         label: NLP
       - type: Label
-        label: Netlify
+        label: LLM
       - type: Label
         label: Pancakes
       - type: Label
