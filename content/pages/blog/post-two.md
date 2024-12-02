@@ -13,7 +13,7 @@ backgroundImage:
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
-  opacity: 22
+  opacity: 40
 ---
 ### [**Paper Link**](https://ieeexplore.ieee.org/abstract/document/10426217?casa_token=Ggz_mt3wwhEAAAAA:Av1ZxKoju2YHRt5zzf25a1xLRVKSVqxcXg2vkUs2bhbsGo-m-pzUdPvS9BL3-12uFgbkLL4WWdDjwYs)
 
