@@ -93,7 +93,9 @@ sections:
     subtitle: Pubications
     showFeaturedImage: false
     actions: []
-    posts: []
+    posts:
+      - content/pages/blog/post-one.md
+      - content/pages/blog/post-three.md
     showDate: true
     showExcerpt: true
     showReadMoreLink: true
