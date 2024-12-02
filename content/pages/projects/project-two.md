@@ -11,7 +11,7 @@ description: >-
   receive actionable insights backed by clear, interpretable explanations.
 featuredImage:
   type: ImageBlock
-  url: 'https://assets.stackbit.com/components/images/default/default-image.png'
+  url: /images/Screenshot from 2024-12-02 10-37-06.png
   altText: altText of the image
   caption: Caption of the image
   elementId: ''
