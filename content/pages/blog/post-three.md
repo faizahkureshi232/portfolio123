@@ -4,7 +4,9 @@ title: 'Docker Diaries: Training Models Without Losing Your Sanity'
 colors: colors-b
 date: '2024-12-01'
 author: content/data/team/doris-soto.json
-excerpt: More context that may or may not be helpful
+excerpt: >-
+  So, you’ve decided to dip your toes—or maybe your entire head—into the world
+  of Docker for model building and training? 
 featuredImage:
   type: ImageBlock
   url: /images/featured-Image3.jpg
