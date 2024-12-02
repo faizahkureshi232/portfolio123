@@ -15,6 +15,8 @@ featuredImage:
   url: /images/Screenshot from 2024-12-02 10-51-36.png
   altText: Project thumbnail image
 ---
+[**To see how its done click here!**](https://github.com/faizahkureshi232/imagetospeech)
+
 This project is designed to empower visually impaired individuals by providing real-time audio narration of their surroundings using augmented reality and AI technologies. The system seamlessly combines image processing and speech synthesis for an accessible and intuitive experience.
 
 **Key Features**:
@@ -41,6 +43,3 @@ This project is designed to empower visually impaired individuals by providing r
 
 This project demonstrates the potential of AI to address real-world challenges, providing visually impaired individuals with an innovative tool for enhanced interaction and independence.
 
-
-
-[To see how its done click here](https://github.com/faizahkureshi232/imagetospeech)
