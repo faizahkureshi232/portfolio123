@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: Predictive Maintenance for Elevators
 colors: colors-a
-date: ''
+date: '2023-04-02'
 client: Awesome client
 description: >-
   Imagine giving elevators a sixth sense—this system does just that. Using
