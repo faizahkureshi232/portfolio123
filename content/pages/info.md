@@ -136,7 +136,7 @@ sections:
         actions:
           - type: Link
             label: INSTAGRAM
-            url: ''
+            url: 'https://www.instagram.com/faizahkureshi232/'
         styles:
           self:
             textAlign: left
