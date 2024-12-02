@@ -116,7 +116,7 @@ sections:
             label: GitHub
             url: 'https://github.com/faizahkureshi232'
           - type: Link
-            label: Learn more
+            label: LINKEDIN
             altText: ''
             url: '/http://www.linkedin.com/in/faizah-kureshi-82b879232'
             showIcon: false
