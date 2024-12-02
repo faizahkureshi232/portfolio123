@@ -14,7 +14,7 @@ featuredImage:
   url: /images/Screenshot from 2024-12-02 10-42-10.png
   altText: Project thumbnail image
 ---
-**Predictive Maintenance for Elevators**
+[**To see how its done click here!**](https://github.com/faizahkureshi232/Predictive_maintenance)
 
 This project focuses on enhancing elevator reliability and safety through a smart predictive maintenance system. By integrating sensors and machine learning, the system ensures timely maintenance, preventing unexpected breakdowns and reducing downtime.
 
@@ -48,6 +48,3 @@ This project focuses on enhancing elevator reliability and safety through a smar
 
 This project demonstrates the potential of combining IoT sensors, machine learning, and web technologies to revolutionize maintenance strategies in industrial and commercial systems.
 
-
-
-[To see how its done click here](https://github.com/faizahkureshi232/Predictive_maintenance)
