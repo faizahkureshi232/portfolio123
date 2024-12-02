@@ -90,7 +90,7 @@ sections:
     elementId: ''
     colors: colors-f
     variant: variant-d
-    subtitle: Pubications
+    subtitle: Pubications + Blog
     showFeaturedImage: false
     actions: []
     posts:
