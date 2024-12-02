@@ -4,26 +4,7 @@ title: Speech-enabled Image Narration for the Visually Impaired
 colors: colors-a
 date: ''
 client: ''
-description: >-
-  This project is designed to empower visually impaired individuals by providing
-  real-time audio narration of their surroundings using augmented reality and AI
-  technologies. The system seamlessly combines image processing and speech
-  synthesis for an accessible and intuitive experience.Key Features:Real-time
-  Audio Narration:Utilized Google Text-to-Speech to convert visual inputs from
-  augmented reality glasses into clear and concise audio outputs with 95%
-  accuracy.Enabled visually impaired users to receive immediate and accurate
-  descriptions of their environment, improving mobility and
-  independence.Enhanced Image Captioning:Employed InceptionV3 to extract
-  features from images for high-quality processing.Integrated these features
-  with an LSTM model enhanced by GloVe embeddings, achieving a 92% accuracy in
-  generating captions.Improved caption generation accuracy by 30%, ensuring
-  precise and contextually relevant descriptions for real-world scenarios.Impact
-  and Accessibility:Delivered a robust solution for visually impaired users,
-  bridging the gap between visual and auditory information.Enhanced
-  accessibility by combining cutting-edge AI with practical usability in
-  real-world environments.This project demonstrates the potential of AI to
-  address real-world challenges, providing visually impaired individuals with an
-  innovative tool for enhanced interaction and independence.
+description: ''
 featuredImage:
   type: ImageBlock
   url: /images/bg1.jpg
