@@ -69,10 +69,6 @@ sections:
         caption: Logo one
       - type: ImageBlock
         url: /images/nus.png
-        altText: Logo two
-        caption: Logo two
-      - type: ImageBlock
-        url: /images/nus.png
         altText: altText of the image
         caption: Caption of the image
         elementId: ''
