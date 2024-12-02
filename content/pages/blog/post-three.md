@@ -145,16 +145,8 @@ FROM python:3.9-slim
 ```
 
 ```
- 
-```
-
-```
 # Install system-level dependencies
 RUN apt-get update && apt-get install -y git wget
-```
-
-```
- 
 ```
 
 ```
@@ -163,25 +155,13 @@ RUN pip install numpy pandas tensorflow keras scikit-learn
 ```
 
 ```
- 
-```
-
-```
 # Set the working directory
 WORKDIR /app
 ```
 
 ```
- 
-```
-
-```
 # Copy your project files into the container
 COPY . .
-```
-
-```
- 
 ```
 
 ```
