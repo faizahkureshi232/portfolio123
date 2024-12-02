@@ -15,6 +15,13 @@ featuredImage:
   altText: altText of the image
   caption: Caption of the image
   elementId: ''
+backgroundImage:
+  type: BackgroundImage
+  url: /images/bg2.jpg
+  backgroundSize: cover
+  backgroundPosition: center
+  backgroundRepeat: no-repeat
+  opacity: 100
 ---
 [To see how its done click here](https://github.com/faizahkureshi232/DoctorLRP)
 
