@@ -7,8 +7,8 @@ client: Awesome client
 description: >-
   Imagine giving elevators a sixth sense—this system does just that. Using
   real-time sensors and machine learning, it predicts when maintenance is due
-  before things go south. It's like your elevator’s way of saying, “Fix me now,
-  so I don’t throw a tantrum later.”
+  before things go south. Think of it as the elevator’s personal therapist,
+  preventing breakdowns one proactive fix at a time!
 featuredImage:
   type: ImageBlock
   url: /images/Screenshot from 2024-12-02 10-42-10.png
