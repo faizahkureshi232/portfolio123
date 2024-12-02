@@ -201,7 +201,7 @@ sections:
       - type: Label
         label: JAVA
       - type: Label
-        label: C++
+        label: JAVA
       - type: Label
         label: C++
   - type: DividerSection
