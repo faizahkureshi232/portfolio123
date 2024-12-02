@@ -25,7 +25,7 @@ backgroundImage:
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
-  opacity: 100
+  opacity: 43
 author: content/data/team/doris-soto.json
 bottomSections:
   - type: RecentPostsSection
