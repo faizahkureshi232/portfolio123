@@ -3,12 +3,6 @@ type: PostLayout
 title: Multicloud
 date: '2024-04-20'
 excerpt: ''
-featuredImage:
-  type: ImageBlock
-  url: 'https://assets.stackbit.com/components/images/default/post-4.jpeg'
-  altText: Post thumbnail image
-  caption: Caption of the image
-  elementId: ''
 addTitleSuffix: true
 colors: colors-a
 backgroundImage:
