@@ -20,7 +20,7 @@ sections:
       This is my info—I’m sharing it here to dazzle you with the hard work, late
       nights, and a questionable amount of debugging I've done over the years.
       Once you're thoroughly impressed (or at least mildly curious), feel free
-      to scroll down for all the details and credentials.
+      to scroll down for all the details.
     styles:
       self:
         height: auto
