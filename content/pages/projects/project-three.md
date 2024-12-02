@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: Predictive Maintenance for Elevators
 colors: colors-a
-date: '2022-01-22'
+date: ''
 client: Awesome client
 description: >-
   A smart monitoring system that uses real-time sensor data and machine learning
