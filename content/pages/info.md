@@ -193,7 +193,7 @@ sections:
       - type: Label
         label: Pytorch
       - type: Label
-        label: Microsoft Office
+        label: Computer Vision
       - type: Label
         label: Next.js
       - type: Label
