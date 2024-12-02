@@ -195,7 +195,7 @@ sections:
       - type: Label
         label: Computer Vision
       - type: Label
-        label: Next.js
+        label: NLP
       - type: Label
         label: Netlify
       - type: Label
