@@ -21,7 +21,43 @@ backgroundImage:
   backgroundRepeat: no-repeat
   opacity: 41
 author: content/data/team/doris-soto.json
-bottomSections: []
+bottomSections:
+  - type: RecentPostsSection
+    subtitle: Posts
+    actions:
+      - type: Link
+        label: See all posts
+        altText: See all posts
+        url: /blog
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        elementId: ''
+    colors: colors-f
+    variant: variant-b
+    elementId: ''
+    recentCount: 3
+    showDate: true
+    showAuthor: false
+    showExcerpt: true
+    showFeaturedImage: false
+    showReadMoreLink: true
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-24
+          - pb-24
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      actions:
+        justifyContent: center
 ---
 Docker isn’t just a buzzword your tech-savvy colleague throws around; it’s a game-changer for anyone working in AI/ML. It’s like having a magic box that keeps your dependencies, tools, and environment conflicts under control. Let’s dive into what Docker is, why it’s awesome, and how to use it for training models without pulling your hair out.
 
