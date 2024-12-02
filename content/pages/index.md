@@ -17,9 +17,10 @@ sections:
       I’m an AI enthusiast, problem-solver, caffeine-fueled coder, and a proud
       owner of way too many unfinished side projects.
     subtitle: >-
-      This is my info—I’m sharing it all this with ya’ll to impress you with all
-      the hard work I’ve done in the past few years. Once you’re impressed, you
-      can continue to scroll down to see more details and credentials about me.
+      This is my info—I’m sharing it here to dazzle you with the hard work, late
+      nights, and a questionable amount of debugging I've done over the years.
+      Once you're thoroughly impressed (or at least mildly curious), feel free
+      to scroll down for all the details and credentials.
     styles:
       self:
         height: auto
