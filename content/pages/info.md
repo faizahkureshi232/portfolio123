@@ -14,10 +14,11 @@ sections:
     colors: colors-f
     backgroundSize: full
     text: >+
-      ## Hey I’m a AI Engineer. I’ve been born and raised in the world, and
-      that’s also where I’m based. I’m currently a  AI engineer, look to pursue
-      masters (also trying to building a personal brand). When I’m not coding,
-      writing or creating, I eat cereals and watch Modern Family.
+      ## Hello I’m a AI Engineer. I’ve been born and raised in India, and that’s
+      also where I’m based. Looking to pursue masters  and trying to collaborate
+      on really cool projects (also trying to building a personal brand). When
+      I’m not coding, writing or creating, I eat cereals and watch Modern
+      Family.
 
     media:
       type: ImageBlock
