@@ -1,6 +1,8 @@
 ---
 type: PostLayout
-title: Multicloud
+title: >-
+  Multiauthority Cloud Storage with Secure and Efficient Attribute-Based Access
+  Control
 date: '2024-04-20'
 excerpt: ''
 addTitleSuffix: true
