@@ -188,7 +188,7 @@ CMD ["python", "train.py"]
 Run this command to build your image:
 
 ```
-bashCopy code
+docker build -t my-model-training .
 ```
 
 ### **2. Run a Container**
@@ -196,7 +196,7 @@ bashCopy code
 Launch a container from your image:
 
 ```
-bashCopy code
+docker run --rm -v $(pwd):/app my-model-training
 ```
 
 *   The `-v` flag mounts your current directory into the container so you can save output models.
@@ -208,7 +208,7 @@ Training models on CPUs is like running a marathon in flip-flops. If you’ve go
 Run the container with GPU support:
 
 ```
-bashCopy code
+docker run --gpus all --rm -v $(pwd):/app my-model-training
 ```
 
 ## **Advanced Tricks: Docker Like a Pro**
@@ -217,8 +217,27 @@ bashCopy code
 
 Keep your images lean and mean with multi-stage builds:
 
+# First stage: Build environment
+
+FROM python:3.9 as builder
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Second stage: Slim runtime
+
 ```
-dockerfileCopy code
+# First stage: Build environment
+FROM python:3.9 as builder
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Second stage: Slim runtime
+FROM python:3.9-slim
+WORKDIR /app
+COPY --from=builder /app .
+CMD ["python", "train.py"]
 ```
 
 ### **2. Docker Compose for Complex Workflows**
@@ -226,13 +245,24 @@ dockerfileCopy code
 If you’re running multiple services (e.g., training + database + logging), use Docker Compose to orchestrate them. Example `docker-compose.yml`:
 
 ```
-yamlCopy code
+version: '3.8'
+services:
+  model_training:
+    build: .
+    volumes:
+      - .:/app
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              capabilities: [gpu]
 ```
 
 Run everything with one command:
 
 ```
-bashCopy code
+docker-compose up
 ```
 
 ## **Common Pitfalls (and How to Avoid Them)**
