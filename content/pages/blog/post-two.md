@@ -1,52 +1,49 @@
 ---
 type: PostLayout
-title: The Great Unbundling
+title: >-
+  Multiauthority Cloud Storage with Secure and Efficient Attribute-Based Access
+  Control
+date: '2024-04-20'
+excerpt: ''
+addTitleSuffix: true
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
-  url: /images/bg2.jpg
+  url: /images/featured-Image3.jpg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
-  opacity: 75
-date: '2021-11-03'
-author: content/data/team/doris-soto.json
-excerpt: >-
-  More context that may or may not be helpful
-featuredImage:
-  type: ImageBlock
-  url: /images/featured-Image2.jpg
-  altText: Post thumbnail image
-media:
-  url: /images/post-4.png
-  altText: altText of the image
-  caption: Caption of the image
-  elementId: ''
-  type: ImageBlock
+  opacity: 40
 bottomSections:
-  - elementId: ''
-    type: RecentPostsSection
+  - type: RecentPostsSection
+    subtitle: Posts
+    actions:
+      - type: Link
+        label: See all posts
+        altText: See all posts
+        url: /blog
+        showIcon: false
+        icon: arrowRight
+        iconPosition: right
+        elementId: ''
     colors: colors-f
-    variant: variant-d
-    subtitle: Recent posts
+    variant: variant-b
+    elementId: ''
+    recentCount: 3
     showDate: true
     showAuthor: false
     showExcerpt: true
-    recentCount: 2
+    showFeaturedImage: false
+    showReadMoreLink: true
     styles:
       self:
         height: auto
         width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
         padding:
-          - pt-12
-          - pb-56
-          - pr-4
+          - pt-24
+          - pb-24
           - pl-4
+          - pr-4
         justifyContent: center
       title:
         textAlign: left
@@ -54,75 +51,51 @@ bottomSections:
         textAlign: left
       actions:
         justifyContent: center
-    showFeaturedImage: true
-    showReadMoreLink: true
-  - type: ContactSection
-    backgroundSize: full
-    title: 'Stay up-to-date with my words ✍️'
-    colors: colors-f
-    form:
-      type: FormBlock
-      elementId: sign-up-form
-      fields:
-        - name: firstName
-          label: First Name
-          hideLabel: true
-          placeholder: First Name
-          isRequired: true
-          width: 1/2
-          type: TextFormControl
-        - name: lastName
-          label: Last Name
-          hideLabel: true
-          placeholder: Last Name
-          isRequired: false
-          width: 1/2
-          type: TextFormControl
-        - name: email
-          label: Email
-          hideLabel: true
-          placeholder: Email
-          isRequired: true
-          width: full
-          type: EmailFormControl
-        - name: updatesConsent
-          label: Sign me up to recieve my words
-          isRequired: false
-          width: full
-          type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
-      styles:
-        submitLabel:
-          textAlign: center
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-4
-          - mr-4
-        padding:
-          - pt-24
-          - pb-24
-          - pr-4
-          - pl-4
-        alignItems: center
-        justifyContent: center
-        flexDirection: row
-      title:
-        textAlign: left
-      text:
-        textAlign: left
 ---
+### [**Paper Link**](https://ieeexplore.ieee.org/abstract/document/10426217?casa_token=Ggz_mt3wwhEAAAAA:Av1ZxKoju2YHRt5zzf25a1xLRVKSVqxcXg2vkUs2bhbsGo-m-pzUdPvS9BL3-12uFgbkLL4WWdDjwYs)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem, tincidunt ac leo efficitur, feugiat tempor odio. Curabitur at auctor sapien. Etiam at cursus enim. Suspendisse sed augue tortor. Nunc eu magna vitae lorem pellentesque fermentum. Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper. Donec sed facilisis nibh. Curabitur eget dui in libero euismod commodo nec sit amet est. Etiam id ipsum aliquam, vehicula erat sit amet, consequat tortor.
+The paper explores a secure and efficient method for cloud storage that uses a multi-authority approach to manage access control. Here’s the breakdown:
 
-Etiam facilisis lacus nec pretium lobortis. Praesent dapibus justo non efficitur efficitur. Nullam viverra justo arcu, eget egestas tortor pretium id. Sed imperdiet mattis eleifend. Vivamus suscipit et neque imperdiet venenatis. In malesuada sed urna eget vehicula. Donec fermentum tortor sit amet nisl elementum fringilla. Pellentesque dapibus suscipit faucibus. Nullam malesuada sed urna quis rutrum. Donec facilisis lorem id maximus mattis. Vestibulum quis elit magna. Vestibulum accumsan blandit consequat. Phasellus quis posuere quam.
+### **Why is This Important?**
 
-Vestibulum ullamcorper risus auctor eleifend consequat. Vivamus mollis in tellus ac ullamcorper. Vestibulum sit amet bibendum ipsum, vitae rutrum ex. Nullam cursus, urna et dapibus aliquam, urna leo euismod metus, eu luctus justo mi eget mauris. Proin felis leo, volutpat et purus in, lacinia luctus eros. Pellentesque lobortis massa scelerisque lorem ullamcorper, sit amet elementum nulla scelerisque. In volutpat efficitur nulla, aliquam ornare lectus ultricies ac. Mauris sagittis ornare dictum. Nulla vel felis ut purus fermentum pretium. Sed id lectus ac diam aliquet venenatis. Etiam ac auctor enim. Nunc velit mauris, viverra vel orci ut, egestas rhoncus diam. Morbi scelerisque nibh tellus, vel varius urna malesuada sed. Etiam ultricies sem consequat, posuere urna non, maximus ex. Mauris gravida diam sed augue condimentum pulvinar vel ac dui. Integer vel convallis justo.
+Cloud storage is convenient, but it’s riddled with security and privacy concerns, especially when data access depends on centralized authorities. Traditional methods often fail when it comes to revoking access or managing user-specific encryption keys efficiently. This paper tackles these challenges with a smarter, decentralized system.
 
-Nam rutrum magna sed pellentesque lobortis. Etiam quam mauris, iaculis eget ex ac, rutrum scelerisque nisl. Cras finibus dictum ex sed tincidunt. Morbi facilisis neque porta, blandit mauris quis, pharetra odio. Aliquam dictum quam quis elit auctor, at vestibulum ex pulvinar. Quisque lobortis a lectus quis faucibus. Nulla vitae pellentesque nibh, et fringilla erat. Praesent placerat ac est at tincidunt. Praesent ultricies a ex at ultrices. Etiam sed tincidunt elit. Nulla sagittis neque neque, ultrices dignissim sapien pellentesque faucibus. Donec tempor orci sed consectetur dictum. Ut viverra ut enim ac semper. Integer lacinia sem in arcu tempor faucibus eget non urna. Praesent vel nunc eu libero aliquet interdum non vitae elit. Maecenas pharetra ipsum dolor, et iaculis elit ornare ac.
+### **What’s the Big Idea?**
 
-Aenean scelerisque ullamcorper est aliquet blandit. Donec ac tellus enim. Vivamus quis leo mattis, varius arcu at, convallis diam. Donec ac leo at nunc viverra molestie ac viverra nisi. Proin interdum at turpis at varius. Nunc sit amet ex suscipit, convallis ligula eu, pretium turpis. Sed ultricies neque vel mi malesuada, et mollis risus lobortis. Sed condimentum venenatis mauris, id elementum dolor gravida ac. Sed sodales tempus neque, quis iaculis arcu tincidunt ut. Donec vitae faucibus dui. In hac habitasse platea dictumst. Donec erat ex, ullamcorper a massa a, porttitor porta ligula.
+The core idea is to use **multi-authority CPABE (Ciphertext Policy Attribute-Based Encryption)**, where:
+
+1.  **Multiple Authorities Share Control**: No single entity has full control. Instead, various attribute authorities manage specific attributes and keys.
+
+2.  **Threshold Secret Sharing**: A clever (t;n) mechanism ensures that keys are generated securely and require collaboration among multiple authorities.
+
+3.  **Dynamic and Secure Access**: Users and attributes can be dynamically added or revoked without breaking the system or needing complete re-encryption.
+
+### **How Does It Work?**
+
+*   Data owners define access policies and encrypt their data accordingly.
+
+*   Attributes (e.g., user roles or permissions) are distributed across multiple authorities.
+
+*   The system uses a combination of efficient encryption, decryption, and revocation methods to make access fast and secure.
+
+### **Why is It Better?**
+
+*   **No Single Point of Failure**: The decentralized design avoids bottlenecks and increases reliability.
+
+*   **Efficiency**: Encryption and decryption times are significantly reduced compared to older methods like FH-CPABE.
+
+*   **Scalability**: Works well with large-scale systems by balancing tasks among multiple authorities.
+
+### **The Results**
+
+Through simulations, the proposed system outperformed traditional approaches in:
+
+1.  **Time Efficiency**: Encryption and decryption times increased only slightly, even with more attributes or larger files.
+
+2.  **Storage Optimization**: Consumed less storage space for attributes and files.
+
+3.  **Security**: Improved attribute revocation and dynamic membership handling without compromising data safety.
+
+### **Why Should You Care?**
+
+This method is a practical solution for organizations looking to manage data securely in distributed cloud systems. It ensures data privacy, handles revocations smoothly, and avoids the inefficiencies of centralized models. If cloud storage is a puzzle, this approach feels like solving it with all the right pieces in place.
