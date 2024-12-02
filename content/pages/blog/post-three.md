@@ -13,7 +13,7 @@ backgroundImage:
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
-  opacity: 52
+  opacity: 40
 bottomSections:
   - type: RecentPostsSection
     subtitle: Posts
