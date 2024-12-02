@@ -9,10 +9,6 @@ description: >-
   prognosis explanations, and notifies doctors via their portal. By combining
   transparency with advanced diagnostics, it ensures healthcare professionals
   receive actionable insights backed by clear, interpretable explanations.
-featuredImage:
-  type: ImageBlock
-  url: /images/bg2.jpg
-  altText: Project thumbnail image
 media:
   type: ImageBlock
   url: /images/bg2.jpg
