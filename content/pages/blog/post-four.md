@@ -5,7 +5,7 @@ title: >-
   Control
 colors: colors-a
 date: '2024-04-05'
-excerpt: More context that may or may not be helpful
+excerpt: ''
 featuredImage:
   type: ImageBlock
   url: /images/featured-Image4.jpg
