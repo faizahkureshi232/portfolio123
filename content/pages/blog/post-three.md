@@ -142,19 +142,49 @@ A `Dockerfile` is like your secret recipe. Here’s an example tailored for ML m
 ```
 # Use an official Python base image
 FROM python:3.9-slim
+```
 
+```
+ 
+```
+
+```
 # Install system-level dependencies
 RUN apt-get update && apt-get install -y git wget
+```
 
+```
+ 
+```
+
+```
 # Install Python libraries
 RUN pip install numpy pandas tensorflow keras scikit-learn
+```
 
+```
+ 
+```
+
+```
 # Set the working directory
 WORKDIR /app
+```
 
+```
+ 
+```
+
+```
 # Copy your project files into the container
 COPY . .
+```
 
+```
+ 
+```
+
+```
 # Run the training script
 CMD ["python", "train.py"]
 ```
