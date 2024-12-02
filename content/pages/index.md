@@ -4,7 +4,7 @@ title: Home
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
-  url: /images/animation tech GIF by Matthew Butler - Find & Share on GIPHY.gif
+  url: /images/network-7ceo8pg1xxgcqj90.gif
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
