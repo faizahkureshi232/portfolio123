@@ -199,7 +199,7 @@ sections:
       - type: Label
         label: LLM
       - type: Label
-        label: JAVA
+        label: Docker
       - type: Label
         label: JAVA
       - type: Label
