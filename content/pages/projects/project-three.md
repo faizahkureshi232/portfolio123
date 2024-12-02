@@ -13,10 +13,6 @@ featuredImage:
   type: ImageBlock
   url: /images/Screenshot from 2024-12-02 10-42-10.png
   altText: Project thumbnail image
-media:
-  type: ImageBlock
-  url: /images/bg3.jpg
-  altText: Project image
 ---
 **Predictive Maintenance for Elevators**
 
