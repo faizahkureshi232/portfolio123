@@ -15,7 +15,7 @@ sections:
     backgroundSize: full
     title: >-
       I’m Faizah,an AI enthusiast, problem-solver, caffeine-fueled coder, and a
-      proud owner of way too many unfinished side projects.
+      proud owner of way too many Ongoing side projects.
     subtitle: >-
       This is my info—I’m sharing it here to dazzle you with the hard work, late
       nights, and a questionable amount of debugging I've done over the years.
